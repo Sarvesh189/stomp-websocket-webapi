@@ -1,7 +1,7 @@
 /target/
 !.mvn/wrapper/maven-wrapper.jar
 
-#unwanted files
+#unwanted files should be ignored
 mvnw
 mvnw.cmd
 /.git/
