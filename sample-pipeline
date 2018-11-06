@@ -2,9 +2,10 @@ pipeline {
 	agent any
 	stages {
 		stage('Initialize-step-1'){
+			steps{
 			echo "sarvesh"
 			echo "Ramesh"
-					
+			}		
 			}
 		stage ('Build-step-2') {
 			steps {
