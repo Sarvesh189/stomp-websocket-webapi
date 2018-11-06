@@ -1,0 +1,19 @@
+pipeline {
+	agent any
+	stages {
+		stage('Initialize-step-1'){
+			sh '''
+			echo "sarvesh"
+			echo "Ramesh"
+				'''
+			
+			}
+		stage ('Build-step-2') {
+			steps {
+				echo "hallo world"
+			}
+		}
+
+	}
+
+}
