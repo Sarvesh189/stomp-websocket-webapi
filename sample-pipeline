@@ -1,9 +1,10 @@
 pipeline {
 	agent any
+	parameters (string{name:'sarvesh', defaultValue:'developer', description:'testing-parameters')}
 	stages {
 		stage('Initialize-step-1'){
 			steps{
-			echo "sarvesh"
+			echo "Hello ${params.sarvesh}"
 			echo "Ramesh"
 			}		
 			}
